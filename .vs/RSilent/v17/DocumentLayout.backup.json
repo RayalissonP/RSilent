@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|c:\\users\\rayalisson pastor\\source\\repos\\rsilent\\rsilent\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|c:\\users\\rayalisson pastor\\source\\repos\\rsilent\\rsilent\\rsilent.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\rsilent.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|c:\\users\\rayalisson pastor\\source\\repos\\rsilent\\rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\obj\\Debug\\net8.0-windows\\RSilent.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RSilent\\obj\\Debug\\net8.0-windows\\RSilent.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,49 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\app.manifest",
-              "RelativeDocumentMoniker": "RSilent\\app.manifest",
-              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\app.manifest",
-              "RelativeToolTip": "RSilent\\app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-09-20T01:59:34.866Z",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs",
+              "RelativeDocumentMoniker": "RSilent\\Form1.cs",
+              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs*",
+              "RelativeToolTip": "RSilent\\Form1.cs*",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:06:42.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RSilent",
-              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\RSilent.csproj",
-              "RelativeDocumentMoniker": "RSilent\\RSilent.csproj",
-              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\RSilent.csproj",
-              "RelativeToolTip": "RSilent\\RSilent.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-20T01:58:28.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RSilent.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\obj\\Debug\\net8.0-windows\\RSilent.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "RSilent\\obj\\Debug\\net8.0-windows\\RSilent.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\obj\\Debug\\net8.0-windows\\RSilent.AssemblyInfo.cs",
-              "RelativeToolTip": "RSilent\\obj\\Debug\\net8.0-windows\\RSilent.AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:29:04.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs",
               "RelativeDocumentMoniker": "RSilent\\Form1.cs",
-              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs [Projeto]",
-              "RelativeToolTip": "RSilent\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs [Projeto]*",
+              "RelativeToolTip": "RSilent\\Form1.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T01:27:51.831Z",
               "EditorCaption": " [Projeto]"

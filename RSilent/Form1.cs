@@ -23,7 +23,7 @@ namespace RSilent
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
-                ofd.Filter = "Instaladores (*.exe;*.msi;*.bat;*.cmd)|*.exe;*.msi;*.bat;*.cmd";
+                ofd.Filter = "Instaladores | Scripts (*.exe;*.msi;*.bat;*.cmd)|*.exe;*.msi;*.bat;*.cmd";
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
                     var app = new AppItem
@@ -65,26 +65,49 @@ namespace RSilent
 
         private async void btnExecutar_Click(object sender, EventArgs e)
         {
+            var selecionados = new List<AppItem>();
             foreach (var item in checkedListBox1.CheckedItems)
             {
                 if (item is AppItem app)
-                {
-                    var psi = new ProcessStartInfo
-                    {
-                        FileName = app.Caminho,
-                        Arguments = app.ChaveSilenciosa,
-                        UseShellExecute = false
-                    };
-
-                    using (var proc = Process.Start(psi))
-                    {
-                        await proc.WaitForExitAsync();
-                    }
-                }
+                    selecionados.Add(app);
             }
 
+            if (selecionados.Count == 0)
+            {
+                MessageBox.Show("Nenhum aplicativo selecionado.");
+                return;
+            }
+
+            // Configura a barra de progresso
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = selecionados.Count;
+            progressBar1.Value = 0;
+
+            foreach (var app in selecionados)
+            {
+                labelStatus.Text = $"Executando {progressBar1.Value + 1} de {progressBar1.Maximum}: {app.Nome}";
+                await Task.Yield();
+
+                var psi = new ProcessStartInfo
+                {
+                    FileName = app.Caminho,
+                    Arguments = app.ChaveSilenciosa,
+                    UseShellExecute = false
+                };
+
+                using (var proc = Process.Start(psi))
+                {
+                    await proc.WaitForExitAsync();
+                }
+
+                // Atualiza a barra após concluir cada app
+                progressBar1.Value++;
+            }
+
+            labelStatus.Text = "Todos os aplicativos foram executados!";
             MessageBox.Show("Execução concluída!");
         }
+
 
         private void AtualizarLista()
         {
@@ -154,6 +177,11 @@ namespace RSilent
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

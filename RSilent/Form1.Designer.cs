@@ -28,6 +28,7 @@ namespace RSilent
             btnLimpar = new Button();
             btnSelecionarTudo = new Button();
             progressBar1 = new ProgressBar();
+            labelStatus = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -114,7 +115,7 @@ namespace RSilent
             // 
             // btnLimpar
             // 
-            btnLimpar.Location = new Point(292, 387);
+            btnLimpar.Location = new Point(131, 409);
             btnLimpar.Name = "btnLimpar";
             btnLimpar.Size = new Size(120, 33);
             btnLimpar.TabIndex = 6;
@@ -124,7 +125,7 @@ namespace RSilent
             // 
             // btnSelecionarTudo
             // 
-            btnSelecionarTudo.Location = new Point(173, 387);
+            btnSelecionarTudo.Location = new Point(12, 409);
             btnSelecionarTudo.Name = "btnSelecionarTudo";
             btnSelecionarTudo.Size = new Size(113, 33);
             btnSelecionarTudo.TabIndex = 7;
@@ -137,11 +138,23 @@ namespace RSilent
             progressBar1.Location = new Point(12, 358);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(400, 23);
+            progressBar1.Step = 1;
             progressBar1.TabIndex = 8;
+            // 
+            // labelStatus
+            // 
+            labelStatus.AutoSize = true;
+            labelStatus.Location = new Point(12, 384);
+            labelStatus.Name = "labelStatus";
+            labelStatus.Size = new Size(39, 15);
+            labelStatus.TabIndex = 9;
+            labelStatus.Text = "Status";
+            labelStatus.Click += label1_Click;
             // 
             // Form1
             // 
-            ClientSize = new Size(570, 441);
+            ClientSize = new Size(570, 454);
+            Controls.Add(labelStatus);
             Controls.Add(progressBar1);
             Controls.Add(btnSelecionarTudo);
             Controls.Add(btnLimpar);
@@ -174,5 +187,6 @@ namespace RSilent
         private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem sobreToolStripMenuItem;
         private ProgressBar progressBar1;
+        private Label labelStatus;
     }
 }
