@@ -23,7 +23,7 @@ namespace RSilent
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
-                ofd.Filter = "Instaladores | Scripts (*.exe;*.msi;*.bat;*.cmd)|*.exe;*.msi;*.bat;*.cmd";
+                ofd.Filter = "Instaladores e Scripts (*.exe;*.msi;*.bat;*.cmd)|*.exe;*.msi;*.bat;*.cmd";
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
                     var app = new AppItem
@@ -182,6 +182,16 @@ namespace RSilent
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

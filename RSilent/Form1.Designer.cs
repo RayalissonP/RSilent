@@ -37,12 +37,13 @@ namespace RSilent
             checkedListBox1.FormattingEnabled = true;
             checkedListBox1.Location = new Point(12, 42);
             checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(400, 310);
+            checkedListBox1.Size = new Size(415, 310);
             checkedListBox1.TabIndex = 0;
+            checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
             // 
             // btnAdicionar
             // 
-            btnAdicionar.Location = new Point(430, 42);
+            btnAdicionar.Location = new Point(437, 42);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(120, 30);
             btnAdicionar.TabIndex = 1;
@@ -51,7 +52,7 @@ namespace RSilent
             // 
             // btnRemover
             // 
-            btnRemover.Location = new Point(430, 137);
+            btnRemover.Location = new Point(437, 137);
             btnRemover.Name = "btnRemover";
             btnRemover.Size = new Size(120, 30);
             btnRemover.TabIndex = 2;
@@ -60,7 +61,7 @@ namespace RSilent
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(430, 90);
+            btnEditar.Location = new Point(437, 90);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(120, 30);
             btnEditar.TabIndex = 3;
@@ -69,7 +70,7 @@ namespace RSilent
             // 
             // btnExecutar
             // 
-            btnExecutar.Location = new Point(430, 217);
+            btnExecutar.Location = new Point(437, 217);
             btnExecutar.Name = "btnExecutar";
             btnExecutar.Size = new Size(120, 30);
             btnExecutar.TabIndex = 4;
@@ -112,6 +113,7 @@ namespace RSilent
             sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
             sobreToolStripMenuItem.Size = new Size(104, 22);
             sobreToolStripMenuItem.Text = "Sobre";
+            sobreToolStripMenuItem.Click += sobreToolStripMenuItem_Click;
             // 
             // btnLimpar
             // 
