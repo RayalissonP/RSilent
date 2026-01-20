@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|c:\\users\\rayalisson pastor\\source\\repos\\rsilent\\rsilent\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|c:\\users\\rayalisson pastor\\source\\repos\\rsilent\\rsilent\\appitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\appitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|c:\\users\\rayalisson pastor\\source\\repos\\rsilent\\rsilent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC18C6D-6330-48D8-8AE0-329CEB2D1922}|RSilent\\RSilent.csproj|solutionrelative:rsilent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +36,7 @@
               "RelativeDocumentMoniker": "RSilent\\Form1.cs",
               "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs",
               "RelativeToolTip": "RSilent\\Form1.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAuwBoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAwK0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T02:06:42.888Z",
               "EditorCaption": ""
@@ -36,13 +44,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs",
-              "RelativeDocumentMoniker": "RSilent\\Form1.cs",
-              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Form1.cs [Projeto]",
-              "RelativeToolTip": "RSilent\\Form1.cs [Projeto]",
+              "Title": "FormEditar.cs",
+              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\FormEditar.cs",
+              "RelativeDocumentMoniker": "RSilent\\FormEditar.cs",
+              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\FormEditar.cs",
+              "RelativeToolTip": "RSilent\\FormEditar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:27:51.831Z"
+              "WhenOpened": "2025-11-24T04:49:03.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Program.cs",
+              "RelativeDocumentMoniker": "RSilent\\Program.cs",
+              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\Program.cs",
+              "RelativeToolTip": "RSilent\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T04:48:33.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppItem.cs",
+              "DocumentMoniker": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\AppItem.cs",
+              "RelativeDocumentMoniker": "RSilent\\AppItem.cs",
+              "ToolTip": "C:\\Users\\Rayalisson Pastor\\source\\repos\\RSilent\\RSilent\\AppItem.cs",
+              "RelativeToolTip": "RSilent\\AppItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T04:48:04.233Z"
             }
           ]
         }

@@ -108,7 +108,6 @@ namespace RSilent
             MessageBox.Show("Execução concluída!");
         }
 
-
         private void AtualizarLista()
         {
             checkedListBox1.Items.Clear();
